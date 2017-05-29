@@ -19,10 +19,7 @@ import java.util.Scanner;
 
 public class Compress {
 	public static void main(String[] args) throws IOException{
-//		ArrayList<Integer> encoded = encode.comp("abbbab", 10);
-		String content = new String(Files.readAllBytes(Paths.get("C:/Kk/examples/input4.txt")));
-		System.out.println(content);
-		ArrayList<String> encoded = encode.comp(content, 10);
+		ArrayList<Integer> encoded = encode.comp("abbbab", 10);
 		System.out.println(encoded);
 	}
 }
