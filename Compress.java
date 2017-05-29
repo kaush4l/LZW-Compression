@@ -24,10 +24,6 @@ public class Compress {
 		System.out.println(content);
 		ArrayList<String> encoded = encode.comp(content, 10);
 		System.out.println(encoded);
-		
-		PrintWriter bw = new PrintWriter(new FileWriter("C:/Kk/examples/Output.txt"));
-		bw.write(encoded.toString());
-		bw.close();
 	}
 }
 
